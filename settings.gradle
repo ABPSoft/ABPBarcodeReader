@@ -1,0 +1,2 @@
+include ':app', ':ABPBarcodeReader'
+rootProject.name='ABPBarcodeReaderLib'
