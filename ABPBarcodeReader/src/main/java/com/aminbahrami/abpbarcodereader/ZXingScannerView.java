@@ -9,6 +9,8 @@ import android.os.Looper;
 import android.util.AttributeSet;
 import android.util.Log;
 
+import com.aminbahrami.abpbarcodereader.Library.BarcodeScannerView;
+import com.aminbahrami.abpbarcodereader.Library.DisplayUtils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -25,10 +27,6 @@ import java.util.Collection;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
-
-import me.dm7.barcodescanner.core.BarcodeScannerView;
-import me.dm7.barcodescanner.core.DisplayUtils;
-
 
 public class ZXingScannerView extends BarcodeScannerView
 {
